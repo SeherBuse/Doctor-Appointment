@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "260545760342",
+    "project_id": "doctorbookingapp-44231",
+    "storage_bucket": "doctorbookingapp-44231.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260545760342:android:ad767df5d241293c40fff7",
+        "android_client_info": {
+          "package_name": "com.seherbuse.doctorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260545760342-7negacn42n7re2espspl5vcg72lhopfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4HKNNHU7g20PTUuGRyhoYux8Jg5soTjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260545760342-7negacn42n7re2espspl5vcg72lhopfp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.seherbuse.doctorapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/doctorimg"
+        android:label="Doctor Booking App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoctorBookingApp">
+        <activity android:name="com.seherbuse.doctorapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.seherbuse.doctorapp.Register"/>
+        <activity android:name="com.seherbuse.doctorapp.Login"/>
+        <activity android:name="com.seherbuse.doctorapp.OnBoardingActivity"/>
+        <activity android:name="com.seherbuse.doctorapp.Home"/>
+        <activity android:name="com.seherbuse.doctorapp.Appointment"/>
+        <activity android:name="com.seherbuse.doctorapp.Services"/>
+        <activity android:name="com.seherbuse.doctorapp.Notification"/>
+        <activity android:name="com.seherbuse.doctorapp.Doctor"/>
+        <activity android:name="com.seherbuse.doctorapp.SocialMedia"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

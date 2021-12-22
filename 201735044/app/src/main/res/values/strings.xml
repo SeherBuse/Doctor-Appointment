@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Doctor Booking App</string>
+
+    //onboard screen
+
+    <string name="ob_header1">BOOK AN APPOINTMENT</string>
+    <string name="ob_header2">MEET OUR DOCTORS</string>
+    <string name="ob_header3">CONFIRMATION</string>
+
+    <string name="ob_get_started">GET STARTED</string>
+
+    <string name="ob_desc1">You can get a free appointment from our doctors through the application..</string>
+    <string name="ob_desc2">It is important for you and your doctor to arrive on time for your appointment..</string>
+    <string name="ob_desc3">Thank you for choosing our application, we wish you a healthy day.</string>
+
+
+    //appointment
+    <string-array name="Doctorp">
+
+        <item>Select a Doctor</item>
+        <item>Buse Güneş</item>
+        <item>Selin Yılmaz</item>
+        <item> Ayca Sülün </item>
+        <item> Merve Işık </item>
+    </string-array>
+
+    <string name="date">Date of Booking :</string>
+    <string name="time">Time of Booking :</string>
+    <string name="barber">Doctor Booked :</string>
+</resources>
